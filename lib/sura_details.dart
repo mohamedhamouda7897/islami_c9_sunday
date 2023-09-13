@@ -59,6 +59,7 @@ class _SuraDetailsState extends State<SuraDetails> {
               itemBuilder: (context, index) {
                 return Text(
                   "${verses[index]}(${index + 1})",
+                  textDirection: TextDirection.rtl,
                   textAlign: TextAlign.center,
                 );
               },
